@@ -870,7 +870,7 @@ margin-left: -70%;
 .cus{
     margin-left: 39.5%;
     font-size: 22px;
-    margin-top: -8%;
+    margin-top: -7.7%;
 }
 
 .footer {
@@ -922,7 +922,6 @@ margin-left: -70%;
     color: #fff;
 }
 
-/* Subscribe box */
 .email-box {
     border: 1px solid rgba(255,255,255,0.4);
     width: 220px;
@@ -947,13 +946,11 @@ margin-left: -70%;
     cursor: pointer;
 }
 
-/* QR download */
 .download-box {
     display: flex;
     gap: 12px;
     align-items: center;
 }
-
 .qr {
     width: 85px;
 }
@@ -963,7 +960,6 @@ margin-left: -70%;
     margin-bottom: 10px;
 }
 
-/* Social icons */
 .social i {
     font-size: 22px;
     margin-right: 10px;
@@ -976,11 +972,122 @@ margin-left: -70%;
     color: #ff3e3e;
 }
 
-/* Bottom bar */
 .footer-bottom {
     border-top: 1px solid #222;
     text-align: center;
     padding: 20px;
     color: #777;
     font-size: 14px;
+}
+
+.signup-container {
+  display: flex;
+  width: 80%;
+  padding: 40px;
+  align-items: flex-start;   
+}
+
+.left-image img {
+  width: 600px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.right-form {
+  margin-left: 40px;  
+  width: 300px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #9c9c9c;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  font-size: 16px;
+  outline: none;
+}
+
+.two-button button{
+    width: 371px;
+height: 56px;
+gap: 10px;
+opacity: 1;
+border-radius: 4px;
+padding-top: 16px;
+padding-right: 122px;
+padding-bottom: 16px;
+padding-left: 122px;
+}
+
+#dil {
+    position: relative;
+}
+
+#dil span {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.wishlist-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+#wish {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#wishitem {
+    width: 223px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.just p{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+margin-left: 8%;
+margin-top: -2.5%;
 }
